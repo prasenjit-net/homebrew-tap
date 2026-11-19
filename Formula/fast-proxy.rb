@@ -2,28 +2,28 @@
 class FastProxy < Formula
   desc "Fast, realtime-configurable ingress server and reverse proxy"
   homepage "https://github.com/prasenjit-net/fast-proxy"
-  version "0.2.1"
+  version "0.2.2"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/prasenjit-net/fast-proxy/releases/download/v0.2.1/fast-proxy-v0.2.1-aarch64-apple-darwin.tar.gz"
-      sha256 "b55e2452177de18cdf789439ccc65b63833306d1dd0c142f90021c2ae1629ae5"
+      url "https://github.com/prasenjit-net/fast-proxy/releases/download/v0.2.2/fast-proxy-v0.2.2-aarch64-apple-darwin.tar.gz"
+      sha256 "816a9f7ca162adf1d6c6778e2522d984d3264cb899803ef2a4ac4fa6e8be7495"
     end
     on_intel do
-      url "https://github.com/prasenjit-net/fast-proxy/releases/download/v0.2.1/fast-proxy-v0.2.1-x86_64-apple-darwin.tar.gz"
-      sha256 "3714aaa819619abc6cd27c024c74660085d1477c34f4dbf2b9947bc2ddafff57"
+      url "https://github.com/prasenjit-net/fast-proxy/releases/download/v0.2.2/fast-proxy-v0.2.2-x86_64-apple-darwin.tar.gz"
+      sha256 "f60b48d22949db88620b86f23f0f305590f220eb20533eea3e44f025cd0850e9"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/prasenjit-net/fast-proxy/releases/download/v0.2.1/fast-proxy-v0.2.1-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "f44fbfb77ba3775c141b8b18e1cc427d590c981f14f931598aa981e3a100c96d"
+      url "https://github.com/prasenjit-net/fast-proxy/releases/download/v0.2.2/fast-proxy-v0.2.2-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "7d297c67519fca76e6b50c65249b0a879a269d80bd95f36e1dc80f1800691ba7"
     end
     on_intel do
-      url "https://github.com/prasenjit-net/fast-proxy/releases/download/v0.2.1/fast-proxy-v0.2.1-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "9e8eb950c09c749e3261832ea17895a6e817aee8fbbd235cdd0d383879f5f838"
+      url "https://github.com/prasenjit-net/fast-proxy/releases/download/v0.2.2/fast-proxy-v0.2.2-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "2e1810722dfb7246b9289e357257eda3b8f0519180a276b72ade9bb20fc55fc0"
     end
   end
 
