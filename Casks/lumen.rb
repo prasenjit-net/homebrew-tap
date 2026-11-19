@@ -1,6 +1,6 @@
 cask "lumen" do
-  version "0.6.2"
-  sha256 "8ed60a5d687109dd722b9a54d59f92dc29e04418ee2df9d531deb9891643d953"
+  version "0.6.3"
+  sha256 "9d7959e43da886d3a514e14d060e48596054d0f66b3ea858bfb1d2b0a677ca43"
 
   url "https://github.com/prasenjit-net/lumen-editor/releases/download/v#{version}/Lumen-v#{version}-macos-ARM64.dmg"
   name "Lumen"
